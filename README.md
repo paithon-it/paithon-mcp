@@ -90,7 +90,7 @@ url = "https://paithon.it/mcp"
 ## Le regole
 
 - **Solo quello che è pubblicato.** Niente bozze, niente contenuti nascosti, niente articoli riservati ai membri oltre l'anteprima che vede chiunque.
-- **Ogni risposta porta i link**, e il server chiede al client di citarli. Il libro si cita con il titolo del capitolo e il suo indirizzo, e il suo testo (licenza CC BY-NC-ND 4.0) serve a spiegare, non a essere ripubblicato modificato.
+- **Ogni risposta porta i link**, e il server chiede al client di citarli. Il libro si cita con il titolo del capitolo e il suo indirizzo, e il suo testo (licenza CC BY-NC-ND 4.0) serve a spiegare: i passi testuali si riportano con la fonte, e il libro non si ridistribuisce dentro un altro prodotto né in versioni modificate.
 - **Il libro si legge solo dal suo indice**: `sezione` scarica una pagina di book.paithon.it solo se è fra quelle dell'indice pubblico del libro.
 - **Gli articoli che hanno chiesto di restare fuori dalle IA** si trovano con `cerca`, ma `leggi` ne dà solo titolo, estratto e link.
 - **Limiti**: 120 chiamate ogni 10 minuti per gruppo di indirizzi; una richiesta al massimo di 65.536 byte; un solo messaggio per volta; `leggi` dà gli articoli lunghi a parti da 40.000 caratteri, così nessuna risposta supera il limite dei client; `cerca` dà al massimo 20 risultati.

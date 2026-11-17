@@ -90,7 +90,7 @@ url = "https://paithon.it/mcp"
 ## The rules
 
 - **Published content only.** No drafts, no hidden content, no member-only articles beyond the preview anyone sees.
-- **Every answer carries links**, and the server asks the client to cite them. The book is cited by chapter title and address, and its text (licensed CC BY-NC-ND 4.0) is there to explain from, not to be republished in a modified form.
+- **Every answer carries links**, and the server asks the client to cite them. The book is cited by chapter title and address, and its text (licensed CC BY-NC-ND 4.0) is there to explain from: quote passages with their source, and do not redistribute the book inside another product or in modified versions.
 - **The book is read only from its index**: `sezione` downloads a page of book.paithon.it only if it is one of those in the book's public index.
 - **Articles that asked to stay out of AI systems** can be found with `cerca`, but `leggi` returns only their title, excerpt and link.
 - **Limits**: 120 calls every 10 minutes per address group; a request of at most 65,536 bytes; one message at a time; `leggi` returns long articles in parts of 40,000 characters, so no answer goes over a client's limit; `cerca` returns at most 20 results.
